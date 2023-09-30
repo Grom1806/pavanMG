@@ -1,0 +1,261 @@
+
+*
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+
+body
+	background: #191919
+	font-family: 'DM Sans', sans-serif
+
+hr
+	margin-bottom: 60px
+
+h1
+	color: #D9D9D9
+	font-size: 58px
+	font-weight: 700
+	line-height: 70px
+	letter-spacing: -1px
+p
+	color: #a7a7a7
+	font-size: 18px
+	font-style: normal
+	font-weight: 400
+	line-height: 26px
+.container
+	max-width: 1222px
+	margin: 41px auto
+
+.header
+.header__nav
+	display: flex
+	margin-bottom: 320px
+	&_logo
+
+		width: 97px
+		height: 59px
+		margin-right: 306px
+		cursor: pointer
+
+.navigation
+	margin-right: 51px
+
+	&__item
+		color: #A7A7A7
+		text-decoration: none
+		font-size: 20px
+		font-weight: 500
+		line-height: 26px
+		margin-right: 67px
+		transition: all .3s
+		&:last-child
+			margin: 0
+		&:hover
+			color: white
+			filter: drop-shadow(0 0 10px white)
+
+.active
+	color: white
+	filter: drop-shadow(0 0 10px white)
+.socials
+	&_item
+		width: 30px
+		margin-right: 15px
+		cursor: pointer
+		transition: all .3s
+
+		&:hover
+			color: white
+			filter: drop-shadow(0 0 10px white)
+		&:last-child
+			margin: 0
+
+.header__main
+	display: flex
+	margin-bottom: 348px
+	h2
+		color: #D9D9D9
+		font-size: 58px
+		font-weight: 700
+		line-height: 70px
+		letter-spacing: -1px
+		text-align: center
+	h1
+		color: #D9D9D9
+		font-size: 58px
+		font-weight: 700
+		line-height: 70px
+		letter-spacing: -1px
+		width: 636px
+
+	span
+		color: transparent
+		-webkit-background-clip: text
+		background-clip: text
+		background-image: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%)
+
+.header__main_avatar
+	margin-left: 219px
+	border-radius: 50%
+	width: 360px
+	height: 360px
+	background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%)
+	display: flex
+	justify-content: center
+	align-items: center
+	animation: radiusAnimation 6s infinite alternate-reverse
+	img
+		overflow: hidden
+		width: 349px
+		height: 349px
+		border-radius: 50%
+		animation: radiusAnimation 6s infinite alternate-reverse
+
+	@keyframes	radiusAnimation
+
+		0%
+			border-radius: 50%
+		20%
+			border-radius: 30px
+		30%
+			border-radius: 25% 10%
+		40%
+			border-radius: 10% 30% 50% 70%
+		50%
+			border-radius: 10% / 50%
+		60%
+			border-radius: 10px 100px / 120px
+		80%
+			border-radius: 50% 20% / 10% 40%
+		100%
+			border-radius: 50%
+
+.main
+.section-1
+	margin-bottom: 214px
+	&__img
+		display: flex
+		flex-wrap: wrap
+		margin-left: 100px
+		&_icons
+			width: 120px
+			height: 119px
+			margin-right: 103px
+			margin-bottom: 91px
+			transition: all .3s
+			&:hover
+				transform: translateY(-5px)
+.title
+	color: #ccc
+	text-align: center
+	font-size: 48px
+	font-weight: 700
+	line-height: 26px
+	margin-bottom: 49px
+.info
+	color: #a7a7a7
+	text-align: center
+	font-size: 32px
+	font-weight: 400
+	line-height: 26px
+	margin-bottom: 140px
+
+.section-2
+.cards
+	display: flex
+	flex-wrap: wrap
+	margin-bottom: 219px
+	.card
+		color: #ccc
+		overflow: hidden
+		width: 373px
+		height: 567px
+		border-radius: 20px
+		background: #363636
+		box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20)
+		margin-right: 30px
+		margin-bottom: 65px
+		cursor: pointer
+		transition: all .3s
+		&:hover
+			transform: translateY(-5px)
+		&:last-child
+			margin: 0
+		img
+			width: 100%
+			margin-bottom: 27px
+		h4
+			text-align: center
+			font-size: 28px
+			font-weight: 500
+			line-height: 26px
+			margin-bottom: 17px
+		p
+			width: 314px
+			font-size: 18px
+			font-weight: 300
+			line-height: 26px
+			margin-bottom: 12px
+			margin-left: 50px
+		h6
+			font-size: 16px
+			font-style: normal
+			font-weight: 400
+			line-height: 26px
+			margin-left: 50px
+			margin-bottom: 30px
+	.container
+		margin: 0
+		.links
+			display: flex
+			margin-left: 30px
+			a
+				color: #fff
+				font-size: 16px
+				font-weight: 400
+				line-height: 26px
+				text-decoration-line: underline
+				margin-right: 48px
+				transition: all .3s
+				&:hover
+					color: white
+					filter: drop-shadow(0 0 10px white)
+				&:last-child
+					margin: 0
+			img
+				width: 20px
+				height: 20px
+				margin-right: 15px
+
+.footer
+
+.contacts
+	display: flex
+	&__img
+		width: 97px
+		height: 59px
+		margin-right: 500px
+	&__link
+		a
+			color: #a7a7a7
+			text-decoration: none
+			font-size: 18px
+			font-weight: 400
+			line-height: 26px
+			margin-right: 33px
+			transition: all .3s
+			&:hover
+				color: white
+				filter: drop-shadow(0 0 10px white)
+			&:last-child
+				margin-right: 150px
+
+.contacts-1
+	display: flex
+	p
+		color: #a7a7a7
+		font-size: 18px
+		font-weight: 400
+		line-height: 26px
+		margin-left: 100px
